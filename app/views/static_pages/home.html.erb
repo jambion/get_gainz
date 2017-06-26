@@ -1,2 +1,12 @@
-<h1>Welcome to The Flex Log!</h1>
-<h2>A place to keep track of how you train and how you get your gainz!</h2>
+<% provide(:title, "Home") %>
+
+
+<div class="center jumbotron">
+  <h1>Welcome to The Flex Log!</h1>
+  <h2>A place to keep track of how you train and how you get your gainz!</h2>
+
+  <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("donny.jpg", :size => "341x502", alt: "Donny lifting weights"),
+            'http://bodybuilding.com/' %>
